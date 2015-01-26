@@ -5,11 +5,24 @@ html {
 		background: #ccf;
 		width:70%;
 		padding: 1%;
+		margin: 0 auto;
 	}
 
 h1 {
 	background: #333;
 	color:#ccf;
-	width: 70%;
+	width: 98%;
 	padding: 1%;
 }
+div {
+	width: 200px;
+	height: 200px;
+	background-color: #cb1414;
+	border-radius: 100px;
+	transition: width .2s ease-out;
+	-webkit-transition: width .2s ease-out;
+	-moz-transition: width .2s ease-out;
+}
+	div:hover {
+		width: 400px;
+	}

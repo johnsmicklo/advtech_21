@@ -1,2 +1,5 @@
 var username = "John";
-alert("Hello, " + username);
+//alert("Hello, " + username);
+function aaa() {
+
+}
